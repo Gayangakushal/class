@@ -2,6 +2,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { LmsButton } from "./LmsButton";
 import { CONTACT, TEACHER, CLASSES } from "@/lib/site-data";
+import { FooterSocialLinks } from "./SocialConnect";
 export function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -13,10 +14,14 @@ export function SiteFooter() {
           <div>
             <p className="footer-brand">{TEACHER.name}</p>
             <p>{TEACHER.subject} · G.C.E. Advanced Level</p>
-            <p>Clear concepts. Confident answers. Theory, revision and paper practice, in the classroom and online.</p>
+            <p>
+              Clear concepts. Confident answers. Theory, revision and paper practice, in the
+              classroom and online.
+            </p>
             <p lang="si" className="si">
               {TEACHER.tagline}
             </p>
+            <FooterSocialLinks />
             <LmsButton className="mt-6">
               LMS Login <ArrowUpRight size={18} />
             </LmsButton>
@@ -27,8 +32,12 @@ export function SiteFooter() {
             <Link to="/about">About</Link>
             <Link to="/classes">Classes & fees</Link>
             <Link to="/timetable">Timetable</Link>
-            <Link to="/" hash="class-centres">Class Centres</Link>
-            <Link to="/" hash="results">Student Results</Link>
+            <Link to="/" hash="class-centres">
+              Class Centres
+            </Link>
+            <Link to="/" hash="results">
+              Student Results
+            </Link>
             <Link to="/" hash="contact">
               Contact
             </Link>
@@ -46,7 +55,6 @@ export function SiteFooter() {
             <p>{CONTACT.phone}</p>
             <p>{CONTACT.email}</p>
             <p>{CONTACT.address}</p>
-            <p className="footer-social">[Social media links to be confirmed]</p>
           </div>
         </div>
         <div className="footer-bottom">
@@ -55,7 +63,9 @@ export function SiteFooter() {
           </p>
           <p>Details in [ ] await confirmation.</p>
         </div>
-        <p className="developer-credit">Designed &amp; Developed by <span>Novonex Software Solutions</span></p>
+        <p className="developer-credit">
+          Designed &amp; Developed by <span>Novonex Software Solutions</span>
+        </p>
       </div>
     </footer>
   );

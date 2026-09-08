@@ -51,7 +51,7 @@ function Classes() {
                   <span>ADMIT / BS</span>
                   <b>0{i + 1}</b>
                 </div>
-                <div className="programme-body"><SampleImage src={c.image} alt={`Replaceable sample artwork for ${c.title}`} />
+                <div className="programme-body"><SampleImage src={c.image} alt={`Sri Lankan students attending a ${c.title.toLowerCase()}`} />
                   <span className="ticket-year">{c.year}</span>
                   <h2>{c.title}</h2>
                   <p lang="si" className="si">

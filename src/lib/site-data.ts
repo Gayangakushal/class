@@ -42,7 +42,7 @@ export const STATS = [
 export const CLASSES = [
   {
     id: "theory",
-    image: "/images/classes/theory-class.svg",
+    image: "/images/classes/theory-class.jpg",
     year: "2027 A/L",
     title: "Theory Class",
     si: "න්‍යාය පන්තිය",
@@ -52,7 +52,7 @@ export const CLASSES = [
   },
   {
     id: "revision",
-    image: "/images/classes/revision-class.svg",
+    image: "/images/classes/revision-class.jpg",
     year: "2026 A/L",
     title: "Revision Class",
     si: "පුනරීක්ෂණ පන්තිය",
@@ -63,7 +63,7 @@ export const CLASSES = [
   },
   {
     id: "paper",
-    image: "/images/classes/paper-class.svg",
+    image: "/images/classes/paper-class.jpg",
     year: "2026 A/L",
     title: "Paper Class",
     si: "ප්‍රශ්න පත්‍ර පන්තිය",
@@ -154,17 +154,84 @@ export const FAQS = [
   },
 ];
 
-/** Sample locations, not confirmed teaching venues. No maps until verified. */
-export const CLASS_CENTRES = ["Nugegoda", "Panadura", "Horana"].map(town => ({
-  id: town.toLowerCase(), town,
-  name: "Sample Class Centre — Replace with Real Name",
-  image: `/images/centres/centre-${town.toLowerCase()}.svg`,
-  mapUrl: "", isSample: true,
-}));
+/**
+ * Sample class-location content. Replace these values when each branch is
+ * confirmed; the component layout and artwork do not need to change.
+ */
+export type ClassLocation = {
+  id: string;
+  number: string;
+  city: string;
+  venue: string;
+  description: string;
+  schedule: string;
+  contact: string;
+  featured: boolean;
+  accent: "lime" | "coral" | "violet" | "blue";
+  /** Add a public image path here to replace this card's abstract artwork. */
+  image?: string;
+};
 
-/** Layout samples only. Do not add student claims without verified consented data. */
-export const STUDENT_RESULTS = [1, 2, 3].map(number => ({
-  id: `sample-result-${number}`, studentName: "Student Name", year: "Exam Year",
-  result: "Result", rank: "", school: "", quote: "",
-  image: `/images/results/sample-result-${number}.svg`, isSample: true,
-}));
+export const CLASS_LOCATIONS = [
+  {
+    id: "maharagama",
+    number: "04",
+    city: "Maharagama",
+    venue: "Main Revision Centre",
+    description: "BS Business Studies special theory / revision classes",
+    schedule: "Saturday 8.00 AM – 2.00 PM",
+    contact: "0773 872 722",
+    featured: true,
+    accent: "lime",
+  },
+  {
+    id: "nugegoda",
+    number: "01",
+    city: "Nugegoda",
+    venue: "Sample Class Centre",
+    description: "Business Studies theory class",
+    schedule: "Weekday evening",
+    contact: "0778 992 828",
+    featured: false,
+    accent: "coral",
+  },
+  {
+    id: "panadura",
+    number: "02",
+    city: "Panadura",
+    venue: "Sample Class Centre",
+    description: "Business Studies online / physical support",
+    schedule: "Saturday morning",
+    contact: "0714 010 667",
+    featured: false,
+    accent: "violet",
+  },
+  {
+    id: "horana",
+    number: "03",
+    city: "Horana",
+    venue: "Sample Class Centre",
+    description: "Revision class centre",
+    schedule: "Sunday morning",
+    contact: "0770 787 044",
+    featured: false,
+    accent: "blue",
+  },
+] as const satisfies readonly ClassLocation[];
+
+/** 2025 district result creatives supplied by the site owner. */
+export const STUDENT_RESULTS = [
+  { id: "matara-2025", district: "Matara", year: "2025", image: "/images/results/matara-2025-results.jpg", featured: true },
+  { id: "badulla-2025", district: "Badulla", year: "2025", image: "/images/results/badulla-2025-results.jpg", featured: true },
+  { id: "hambantota-2025", district: "Hambantota", year: "2025", image: "/images/results/hambantota-2025-results.jpg", featured: true },
+  { id: "kurunegala-2025", district: "Kurunegala", year: "2025", image: "/images/results/kurunegala-2025-results.jpg", featured: false },
+  { id: "matale-2025", district: "Matale", year: "2025", image: "/images/results/matale-2025-results.jpg", featured: false },
+  { id: "puttalam-2025", district: "Puttalam", year: "2025", image: "/images/results/puttalam-2025-results.jpg", featured: false },
+  { id: "polonnaruwa-2025", district: "Polonnaruwa", year: "2025", image: "/images/results/polonnaruwa-2025-results.jpg", featured: false },
+  { id: "rathnapura-2025", district: "Rathnapura", year: "2025", image: "/images/results/rathnapura-2025-results.jpg", featured: false },
+  { id: "kegalle-2025", district: "Kegalle", year: "2025", image: "/images/results/kegalle-2025-results.jpg", featured: false },
+  { id: "ampara-2025", district: "Ampara", year: "2025", image: "/images/results/ampara-2025-results.jpg", featured: false },
+  { id: "kandy-2025", district: "Kandy", year: "2025", image: "/images/results/kandy-2025-results.jpg", featured: false },
+  { id: "galle-2025", district: "Galle", year: "2025", image: "/images/results/galle-2025-results.jpg", featured: false },
+  { id: "anuradhapura-2025", district: "Anuradhapura", year: "2025", image: "/images/results/anuradhapura-2025-results.jpg", featured: false },
+] as const;

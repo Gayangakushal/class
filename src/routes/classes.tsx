@@ -1,6 +1,5 @@
-import { SampleImage } from "@/components/site/SampleImage";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Check } from "lucide-react";
+import { ArrowUpRight, Check } from "lucide-react";
 import { LmsButton } from "@/components/site/LmsButton";
 import { Editable, PageHero } from "@/components/site/PageHero";
 import { CLASSES, TEACHER_PORTRAIT } from "@/lib/site-data";
@@ -51,8 +50,8 @@ function Classes() {
                   <span>ADMIT / BS</span>
                   <b>0{i + 1}</b>
                 </div>
-                <div className="programme-body"><SampleImage src={c.image} alt={`Sri Lankan students attending a ${c.title.toLowerCase()}`} />
-                  <span className="ticket-year">{c.year}</span>
+                <div className="programme-body">
+                  <div className="ticket-badges"><span className="ticket-year">{c.year}</span>{c.featured && <span className="popular">Most popular</span>}</div>
                   <h2>{c.title}</h2>
                   <p lang="si" className="si">
                     {c.si}
@@ -68,6 +67,9 @@ function Classes() {
                   </ul>
                 </div>
                 <div className="programme-pass">
+                  <Link to="/classes" hash={c.id} className="programme-arrow" aria-label={`View ${c.title}`}>
+                    <ArrowUpRight aria-hidden="true" />
+                  </Link>
                   <p className="kicker">Monthly fee</p>
                   <p>
                     <Editable value={c.fee} />

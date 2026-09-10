@@ -23,14 +23,14 @@ export const TEACHER = {
 };
 
 export const CONTACT = {
-  /* PLACEHOLDER */ phone: "[Phone number to be confirmed]",
-  /* PLACEHOLDER */ whatsapp: "[WhatsApp number to be confirmed]",
-  /* PLACEHOLDER */ email: "[Email to be confirmed]",
-  /* PLACEHOLDER */ address: "[Class address to be confirmed]",
+  phone: "+94 70 484 8121",
+  whatsapp: "+94 70 484 8121",
+  email: "info@deshanpathinayakebs.lk",
+  address: "මහනුවර, ශ්‍රී ලංකාව",
 };
 
-/** Digits-only WhatsApp number, e.g. "94771234567". Empty = link disabled. */
-export const WHATSAPP_NUMBER = "";
+export const WHATSAPP_NUMBER = "94704848121";
+export const WHATSAPP_URL = "https://wa.me/94704848121";
 
 export const STATS = [
   { /* PLACEHOLDER */ value: "[ — ]", label: "Students taught", si: "සිසුන් සංඛ්‍යාව" },
@@ -53,11 +53,11 @@ export const CLASSES = [
   {
     id: "revision",
     image: "/images/classes/revision-class.jpg",
-    year: "2026 A/L",
+    year: "2027 A/L",
     title: "Revision Class",
     si: "පුනරීක්ෂණ පන්තිය",
-    blurb: "Rapid, structured revision of every unit with model-answer discipline.",
-    points: ["Every unit revised", "Model answer drills", "Recorded on the LMS"],
+    blurb: "Rapid, structured revision with model-answer discipline.",
+    points: ["Every unit revised", "Model answers", "Recorded on the LMS"],
     /* PLACEHOLDER */ fee: "[Fee to be confirmed]",
     featured: true,
   },
@@ -67,8 +67,8 @@ export const CLASSES = [
     year: "2026 A/L",
     title: "Paper Class",
     si: "ප්‍රශ්න පත්‍ර පන්තිය",
-    blurb: "Timed papers, marked to the examiner's scheme, with a discussion after each.",
-    points: ["Timed full papers", "Marked to scheme", "Answer discussion"],
+    blurb: "Timed full papers, mixed to the examination pattern, with a discussion after each.",
+    points: ["Timed full papers", "Mark schemes", "Answer discussion"],
     /* PLACEHOLDER */ fee: "[Fee to be confirmed]",
   },
 ];
@@ -191,7 +191,7 @@ export const CLASS_LOCATIONS = [
     venue: "Sample Class Centre",
     description: "Business Studies theory class",
     schedule: "Weekday evening",
-    contact: "0778 992 828",
+    contact: "+94 70 484 8121",
     featured: false,
     accent: "coral",
   },

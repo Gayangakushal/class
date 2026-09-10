@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Menu, ArrowUpRight } from "lucide-react";
+import { Menu, MessageCircle, ArrowUpRight } from "lucide-react";
 import { LmsButton } from "./LmsButton";
 import {
   Sheet,
@@ -9,7 +9,7 @@ import {
   SheetTitle,
   SheetDescription,
 } from "@/components/ui/sheet";
-import { TEACHER } from "@/lib/site-data";
+import { TEACHER, WHATSAPP_URL } from "@/lib/site-data";
 const NAV = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
@@ -90,6 +90,9 @@ export function SiteHeader() {
             <LmsButton size="lg">
               LMS Login <ArrowUpRight size={18} />
             </LmsButton>
+            <a className="menu-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+              <MessageCircle size={18} /> Chat on WhatsApp
+            </a>
             <Link to="/classes" className="menu-class-cta" onClick={() => setOpen(false)}>
               Find your class <ArrowUpRight size={18} />
             </Link>

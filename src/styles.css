@@ -56,7 +56,6 @@
   --font-sans: "Manrope", "Noto Sans Sinhala", sans-serif;
   --font-sinhala: "Noto Sans Sinhala", "Manrope", sans-serif;
 }
-
 :root {
   --radius: 0.5rem;
 
@@ -2607,6 +2606,307 @@ article:hover .sample-cover img { transform: scale(1.035); }
   .result-card, .result-expand, .result-lightbox-nav { transition: none; }
 }
 
+.header-whatsapp,
+.menu-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--electric);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.header-whatsapp:hover,
+.menu-whatsapp:hover {
+  color: white;
+}
+.menu-whatsapp {
+  justify-content: center;
+  min-height: 3rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(217, 255, 67, 0.35);
+  border-radius: 999px;
+  color: var(--electric);
+}
+.hero-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.timetable-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+  color: #244a3d;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.timetable-whatsapp svg {
+  width: 1.1rem;
+  color: var(--whatsapp);
+}
+.timetable-whatsapp:hover {
+  color: #617f45;
+}
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin-top: 0.8rem;
+  color: #bac5bf;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  transition: color 200ms ease;
+}
+.footer-contact-item:hover {
+  color: var(--electric);
+}
+.footer-contact-item svg {
+  flex: 0 0 auto;
+  width: 1rem;
+  margin-top: 0.15rem;
+  color: var(--electric);
+}
+.footer-contact-item span {
+  display: grid;
+  gap: 0.1rem;
+}
+.footer-contact-item small {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.final-cta > div > div:last-child {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.whatsapp-fab {
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+.whatsapp-fab:hover {
+  box-shadow: 0 16px 34px rgba(37, 211, 102, 0.35);
+}
+
+@media (max-width: 1023px) {
+  .header-whatsapp {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .hero-whatsapp {
+    width: 100%;
+  }
+  .timetable-whatsapp {
+    align-items: flex-start;
+  }
+  .whatsapp-fab {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+  /* Premium class cards: editorial, image-free course schedule. */
+  .course-stack,
+  .programme-stack {
+    gap: 1.25rem;
+  }
+  .course-ticket,
+  .programme-ticket {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(11, 21, 18, 0.1);
+    border-radius: 1.25rem;
+    background: #f7f4eb;
+    color: var(--night);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+    transform: none;
+    transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+  }
+  .course-ticket:hover,
+  .programme-ticket:hover {
+    border-color: rgba(11, 21, 18, 0.22);
+    box-shadow: 0 24px 55px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  .course-ticket.ticket-1,
+  .course-ticket.ticket-2,
+  .course-ticket.ticket-3,
+  .programme-ticket.ticket-1,
+  .programme-ticket.ticket-2,
+  .programme-ticket.ticket-3 {
+    background: #f7f4eb;
+  }
+  .ticket-number,
+  .programme-number {
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 1px solid rgba(11, 21, 18, 0.12);
+    padding: 2rem 1.35rem;
+    color: rgba(16, 33, 27, 0.32);
+    font-size: 2.6rem;
+    line-height: 1;
+  }
+  .programme-number {
+    gap: 1rem;
+  }
+  .programme-number span {
+    writing-mode: vertical-rl;
+    color: rgba(16, 33, 27, 0.5);
+  }
+  .ticket-main,
+  .programme-body {
+    min-width: 0;
+    padding: 2.35rem 2.6rem;
+  }
+  .ticket-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ticket-year,
+  .popular {
+    border: 1px solid rgba(16, 33, 27, 0.14);
+    background: transparent;
+    color: #34453b;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+  }
+  .popular {
+    border-color: #183b2f;
+    background: #183b2f;
+    color: #f7f4eb;
+  }
+  .ticket-main h3,
+  .programme-body h2 {
+    margin-top: 1.3rem;
+    color: var(--night);
+    font-size: clamp(2.15rem, 4vw, 3.7rem);
+    font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: -0.065em;
+  }
+  .ticket-main > .si,
+  .programme-body > .si {
+    margin-top: 0.55rem;
+    color: #617067;
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  .ticket-blurb,
+  .programme-blurb {
+    max-width: 680px;
+    margin-top: 1rem;
+    color: #526159;
+    font-size: 0.86rem;
+    line-height: 1.75;
+  }
+  .ticket-main ul,
+  .programme-body ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.4rem;
+    margin-top: 1.4rem;
+  }
+  .ticket-main li,
+  .programme-body li {
+    color: #243b30;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .ticket-main li svg,
+  .programme-body li svg {
+    color: #658b43;
+  }
+  .ticket-action {
+    border-left: 1px solid rgba(11, 21, 18, 0.12);
+  }
+  .ticket-action a,
+  .programme-arrow {
+    display: grid;
+    width: 3.75rem;
+    height: 3.75rem;
+    place-items: center;
+    border: 1px solid rgba(11, 21, 18, 0.18);
+    border-radius: 50%;
+    background: #183b2f;
+    color: #f7f4eb;
+    transition: transform 300ms ease, background 300ms ease;
+  }
+  .ticket-action a:hover,
+  .programme-arrow:hover {
+    background: #2c5845;
+    transform: translate(2px, -2px) rotate(8deg);
+  }
+  .programme-pass {
+    position: relative;
+    gap: 0.8rem;
+    border-left: 1px solid rgba(11, 21, 18, 0.12);
+    padding: 2rem 1.5rem;
+    background: rgba(224, 229, 214, 0.3);
+  }
+  .programme-arrow {
+    position: absolute;
+    top: 1.6rem;
+    right: 1.35rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .programme-pass .kicker {
+    color: #526159;
+  }
+
+  @media (max-width: 767px) {
+    .course-ticket {
+      grid-template-columns: 52px minmax(0, 1fr);
+    }
+    .ticket-number {
+      padding: 1.5rem 0.7rem;
+      font-size: 1.5rem;
+    }
+    .ticket-main,
+    .programme-body {
+      padding: 1.7rem 1.25rem;
+    }
+    .ticket-main h3,
+    .programme-body h2 {
+      font-size: clamp(2rem, 10vw, 2.8rem);
+    }
+    .ticket-action {
+      grid-column: 1 / -1;
+      min-height: 5.5rem;
+      border-top: 1px solid rgba(11, 21, 18, 0.12);
+      border-left: 0;
+    }
+    .programme-ticket {
+      grid-template-columns: 1fr;
+    }
+    .programme-number {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-right: 0;
+      border-bottom: 1px solid rgba(11, 21, 18, 0.12);
+    }
+    .programme-number span {
+      writing-mode: horizontal-tb;
+    }
+    .programme-pass {
+      grid-column: auto;
+      padding: 1.5rem 1.25rem;
+      border-top: 1px solid rgba(11, 21, 18, 0.12);
+      border-left: 0;
+    }
+    .programme-arrow {
+      top: 1.1rem;
+      right: 1.25rem;
+    }
+  }
+
 /* Class locations: image-free artwork that can later be replaced per branch. */
 .locations-section {
   --location-border: rgba(255, 255, 255, 0.12);
@@ -2763,4 +3063,306 @@ article:hover .sample-cover img { transform: scale(1.035); }
   .location-card, .location-cta svg, .location-art-photo img { transition: none; }
   .location-card:hover { transform: none; }
   .location-card:hover .location-art-photo img { transform: none; }
+}
+
+/* 2027 timetable */
+.timetable-page .timetable-content {
+  padding: 0;
+}
+.timetable-board {
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
+}
+.timetable-section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.timetable-section-heading h2 {
+  max-width: 760px;
+  font-size: clamp(2.5rem, 5.2vw, 5.25rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+.timetable-section-heading h2 span {
+  display: block;
+  color: #617068;
+}
+.class-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: clamp(2.75rem, 5vw, 4.5rem);
+}
+.class-time-card {
+  --class-accent: var(--electric);
+  --class-accent-ink: #405500;
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #d7dbd5;
+  border-radius: 1.4rem;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  background: #fff;
+  box-shadow: 0 18px 55px rgba(29, 45, 38, 0.07);
+  transition:
+    transform 280ms ease,
+    border-color 280ms ease,
+    box-shadow 280ms ease;
+}
+.class-time-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -65px;
+  right: -60px;
+  width: 160px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--class-accent);
+  opacity: 0.11;
+  transition:
+    transform 350ms ease,
+    opacity 350ms ease;
+}
+.class-time-card-online {
+  --class-accent: #7865ef;
+  --class-accent-ink: #4e3fc0;
+}
+.class-time-card:hover {
+  transform: translateY(-7px);
+  border-color: color-mix(in srgb, var(--class-accent) 58%, #d7dbd5);
+  box-shadow: 0 28px 70px rgba(29, 45, 38, 0.13);
+}
+.class-time-card:hover::after {
+  opacity: 0.17;
+  transform: scale(1.15);
+}
+.class-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.class-card-number {
+  color: #98a29c;
+  font-size: 0.65rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+.class-mode-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  max-width: 100%;
+  border: 1px solid color-mix(in srgb, var(--class-accent) 42%, transparent);
+  border-radius: 999px;
+  padding: 0.42rem 0.72rem;
+  color: var(--class-accent-ink);
+  background: color-mix(in srgb, var(--class-accent) 15%, white);
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.class-mode-badge svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: 0 0 auto;
+}
+.class-day-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+.class-day-icon {
+  display: grid;
+  width: 3.25rem;
+  height: 3.25rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 1rem;
+  color: var(--night);
+  background: var(--class-accent);
+}
+.class-day-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.class-time-card h3 {
+  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+.class-card-details {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 1rem;
+  margin-top: clamp(1.75rem, 3vw, 2.4rem);
+  padding-top: 1.35rem;
+  border-top: 1px solid #e4e7e2;
+}
+.class-card-details > div {
+  min-width: 0;
+}
+.class-card-details dt {
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+  color: #7b8680;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.class-card-details dt svg {
+  width: 0.92rem;
+  height: 0.92rem;
+  color: var(--class-accent-ink);
+}
+.class-card-details dd {
+  margin-top: 0.55rem;
+  color: var(--night);
+  font-size: clamp(0.88rem, 1.35vw, 1.02rem);
+  font-weight: 750;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.class-card-details dd[lang="si"] {
+  font-family: var(--font-sinhala);
+  word-spacing: 0.08em;
+}
+.class-highlights {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
+  color: #f4f1e8;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(97, 71, 239, 0.26), transparent 27%), var(--night);
+}
+.class-highlights::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.32;
+  background-image:
+    linear-gradient(rgba(217, 255, 67, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(217, 255, 67, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(to bottom, transparent, #000 15%, #000 85%, transparent);
+  pointer-events: none;
+}
+.class-highlights > .section-x {
+  position: relative;
+}
+.highlights-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.highlights-heading h2 {
+  font-size: clamp(2.5rem, 5vw, 4.8rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+.highlight-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: clamp(2.75rem, 5vw, 4.25rem);
+}
+.highlight-card {
+  display: flex;
+  min-width: 0;
+  min-height: 145px;
+  align-items: center;
+  gap: 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 1.15rem;
+  padding: 1.4rem;
+  background: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(8px);
+  transition:
+    transform 260ms ease,
+    border-color 260ms ease,
+    background 260ms ease;
+}
+.highlight-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(217, 255, 67, 0.48);
+  background: rgba(255, 255, 255, 0.09);
+}
+.highlight-icon {
+  display: grid;
+  width: 3.1rem;
+  height: 3.1rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--night);
+  background: var(--electric);
+}
+.highlight-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.highlight-number {
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+.highlight-card h3 {
+  margin-top: 0.38rem;
+  color: #fff;
+  font-size: clamp(0.92rem, 1.45vw, 1.12rem);
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+}
+@media (max-width: 900px) {
+  .class-card-details {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .highlight-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .timetable-section-heading,
+  .highlights-heading {
+    display: block;
+  }
+  .timetable-section-heading h2,
+  .highlights-heading h2 {
+    margin-top: 1rem;
+  }
+  .class-card-grid,
+  .highlight-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .class-time-card {
+    padding: 1.25rem;
+  }
+  .class-day-row {
+    margin-top: 2rem;
+  }
+  .class-time-card h3 {
+    font-size: clamp(2rem, 10vw, 2.7rem);
+  }
+  .class-card-details {
+    gap: 1.2rem;
+  }
+  .highlight-card {
+    min-height: 118px;
+  }
 }

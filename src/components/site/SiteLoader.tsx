@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { SinhalaText } from "@/components/site/SinhalaText";
+import { useEffect, useRef, useState } from "react";
 import { useRouterState } from "@tanstack/react-router";
 
-const LOAD_DURATION = 1500;
-const EXIT_DURATION = 220;
+const EXIT_DURATION = 240;
 
 export function SiteLoader() {
   const pagePath = useRouterState({ select: (state) => state.location.pathname });
   const [visible, setVisible] = useState(false);
   const [exiting, setExiting] = useState(false);
-  const [progress, setProgress] = useState(0);
+  const hasEntered = useRef(false);
 
   useEffect(() => {
     const motion = matchMedia("(prefers-reduced-motion: reduce)");
@@ -18,14 +18,15 @@ export function SiteLoader() {
     const previousInert = content?.inert ?? false;
     const timers: ReturnType<typeof setTimeout>[] = [];
     let disposed = false;
+    let finished = false;
     const later = (fn: () => void, delay: number) => timers.push(setTimeout(fn, delay));
     const restore = () => {
       body.style.overflow = previousOverflow;
       if (content) content.inert = previousInert;
     };
     const finish = () => {
-      if (disposed) return;
-      setProgress(100);
+      if (disposed || finished) return;
+      finished = true;
       setExiting(true);
       later(
         () => {
@@ -38,16 +39,18 @@ export function SiteLoader() {
     };
 
     setExiting(false);
-    setProgress(0);
     setVisible(true);
     body.style.overflow = "hidden";
     if (content) content.inert = true;
 
-    // Give every page a short, consistent branded transition.
-    later(finish, motion.matches ? 100 : LOAD_DURATION);
-    if (!motion.matches) {
-      [20, 45, 70, 90].forEach((value, index) => later(() => setProgress(value), index * 320));
-    }
+    // Wait for typography on entry, without imposing a long delay on navigation.
+    const minimum = motion.matches ? 0 : hasEntered.current ? 180 : 750;
+    hasEntered.current = true;
+    const ready = document.fonts?.ready.catch(() => undefined) ?? Promise.resolve();
+    const minimumElapsed = new Promise<void>((resolve) => later(resolve, minimum));
+    void Promise.all([ready, minimumElapsed]).then(finish);
+    // A slow font provider must never trap visitors behind the overlay.
+    later(finish, motion.matches ? 150 : 2200);
 
     return () => {
       disposed = true;
@@ -62,34 +65,42 @@ export function SiteLoader() {
       key={pagePath}
       className={`site-loader${exiting ? " is-exiting" : ""}`}
       role="status"
-      aria-label="Loading Business Studies"
+      aria-label="Loading Deshan Business Studies"
+      aria-live="polite"
     >
-      <div className="loader-brand" aria-hidden="true">
-        <svg viewBox="0 0 240 240" className="loader-ring">
-          <circle cx="120" cy="120" r="114" />
-        </svg>
-        <strong>BS</strong>
-      </div>
-      <p>Business Studies</p>
-      <p lang="si" className="si">
-        දැනුමෙන් ඉදිරියට...
-      </p>
-      <div className="loader-progress" aria-hidden="true">
-        <svg viewBox="0 0 300 35">
-          <path d="M0 30H40L70 18L100 25L155 8L190 16L240 3H300" />
-        </svg>
-        <span style={{ width: `${progress}%` }} />
-        <div>
-          <small key={Math.floor(progress / 25)} className="loader-label">
-            {
-              ["Concepts", "Knowledge", "Practice", "Results"][
-                Math.min(3, Math.floor(progress / 25))
-              ]
-            }
-          </small>
-          <small>{progress}%</small>
+      <div className="loader-content">
+        <div className="loader-brand" aria-hidden="true">
+          <span className="loader-monogram">
+            BS
+            <span className="loader-mark-dot" />
+          </span>
+          <span className="loader-brand-rule" />
+          <span className="loader-educator">
+            DESHAN
+            <br />
+            PATHINAYAKE
+          </span>
         </div>
+        <div className="loader-copy">
+          <p className="loader-eyebrow">YOUR NEXT CHAPTER</p>
+          <p className="loader-title">
+            Business Studies<span>.</span>
+          </p>
+          <p lang="si" className="si loader-sinhala">
+            <SinhalaText>{"දැනුමෙන් ඉදිරියට..."}</SinhalaText>
+          </p>
+        </div>
+        <div className="loader-progress" aria-hidden="true">
+          <span />
+        </div>
+        <p className="loader-caption" aria-hidden="true">
+          <span />
+          Preparing your classroom
+        </p>
       </div>
+      <span className="loader-footer" aria-hidden="true">
+        CLARITY. CONFIDENCE. RESULTS.
+      </span>
     </div>
   );
 }

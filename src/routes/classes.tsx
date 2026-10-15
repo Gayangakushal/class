@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Check } from "lucide-react";
 import { LmsButton } from "@/components/site/LmsButton";
@@ -54,7 +55,7 @@ function Classes() {
                   <div className="ticket-badges"><span className="ticket-year">{c.year}</span>{c.featured && <span className="popular">Most popular</span>}</div>
                   <h2>{c.title}</h2>
                   <p lang="si" className="si">
-                    {c.si}
+                    <SinhalaText weight={700}>{c.si}</SinhalaText>
                   </p>
                   <p className="programme-blurb">{c.blurb}</p>
                   <ul>

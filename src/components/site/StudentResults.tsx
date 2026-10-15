@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, Expand } from "lucide-react";
 import { STUDENT_RESULTS } from "@/lib/site-data";
@@ -88,9 +89,7 @@ export function StudentResults() {
         <div className="results-heading-row">
           <div>
             <h2 id="results-heading">Hard work, made visible.</h2>
-            <p className="si showcase-si" lang="si">
-              ප්‍රතිඵල කියන්නේ අපේ දරුවන්ගේ කැපවීමේ සැබෑ සාක්ෂිය.
-            </p>
+            <p className="si showcase-si" lang="si"><SinhalaText>{"ප්‍රතිඵල කියන්නේ අපේ දරුවන්ගේ කැපවීමේ සැබෑ සාක්ෂිය."}</SinhalaText></p>
           </div>
           <p className="results-supporting-copy">
             Celebrating the outstanding achievements of our Business Studies students across Sri

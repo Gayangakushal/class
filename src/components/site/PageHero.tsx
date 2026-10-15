@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 ﻿import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowDownRight } from "lucide-react";
@@ -25,13 +26,13 @@ export function PageHero({ eyebrow, title, sinhala, lead, number = "01", portrai
         <h1>{title}</h1>
         {sinhala && (
           <p lang="si" className="si page-sinhala">
-            {sinhala}
+            <SinhalaText>{sinhala}</SinhalaText>
           </p>
         )}
         {lead && <p className="page-lead">{lead}</p>}
         <ArrowDownRight className="page-accent" aria-hidden="true" />
         </div>
-        {portrait && <img className="page-teacher-photo" src={portrait} alt="Deshan Pathinayake, A/L Business Studies teacher" width={1024} height={1536} fetchPriority="high" />}
+        {portrait && <img className="page-teacher-photo" src={portrait} alt="Deshan Pathinayake, A/L Business Studies teacher" width={1536} height={1536} fetchPriority="high" />}
       </div>
     </section>
   );
@@ -40,5 +41,5 @@ export function Placeholder({ children }: { children: ReactNode }) {
   return <span className="content-placeholder">{children}</span>;
 }
 export function Editable({ value }: { value: string }) {
-  return value.trim().startsWith("[") ? <Placeholder>{value}</Placeholder> : <>{value}</>;
+  return value.trim().startsWith("[") ? <Placeholder><SinhalaText>{value}</SinhalaText></Placeholder> : <SinhalaText>{value}</SinhalaText>;
 }

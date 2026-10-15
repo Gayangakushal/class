@@ -11,8 +11,8 @@
 export const LMS_URL =
   "https://deshanpathinayakebs.edu.lk/course-category/revision/?tutor-course-filter-category=47";
 
-/** User-supplied portrait; original 2:3 proportions preserved. */
-export const TEACHER_PORTRAIT = "/images/deshan-pathinayake-cutout.webp";
+/** User-supplied square portrait; transparency and original proportions preserved. */
+export const TEACHER_PORTRAIT = "/images/deshan-pathinayake-portrait.png";
 
 export const TEACHER = {
   name: "Deshan Pathinayake",

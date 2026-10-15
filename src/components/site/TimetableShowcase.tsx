@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 import {
   BarChart3,
   BookOpenCheck,
@@ -110,7 +111,7 @@ export function TimetableShowcase() {
                       {isOnline ? <Monitor aria-hidden="true" /> : <MapPin aria-hidden="true" />}
                       {isOnline ? "Mode" : "Location"}
                     </dt>
-                    <dd lang={isOnline ? "si" : undefined}>{classItem.location}</dd>
+                    <dd lang={isOnline ? "si" : undefined}><SinhalaText weight={700}>{classItem.location}</SinhalaText></dd>
                   </div>
                 </dl>
               </article>

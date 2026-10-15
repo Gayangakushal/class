@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 ﻿import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { LmsButton } from "./LmsButton";
@@ -19,7 +20,7 @@ export function SiteFooter() {
               classroom and online.
             </p>
             <p lang="si" className="si">
-              {TEACHER.tagline}
+              <SinhalaText>{TEACHER.tagline}</SinhalaText>
             </p>
             <FooterSocialLinks />
             <LmsButton className="mt-6">
@@ -55,7 +56,7 @@ export function SiteFooter() {
             <a className="footer-contact-item" href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}><Phone aria-hidden="true" /><span><small>Phone</small>{CONTACT.phone}</span></a>
             <a className="footer-contact-item" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" /><span><small>WhatsApp</small>{CONTACT.whatsapp}</span></a>
             <a className="footer-contact-item" href={`mailto:${CONTACT.email}`}><Mail aria-hidden="true" /><span><small>Email</small>{CONTACT.email}</span></a>
-            <p className="footer-contact-item"><MapPin aria-hidden="true" /><span><small>Location</small>{CONTACT.address}</span></p>
+            <p className="footer-contact-item"><MapPin aria-hidden="true" /><span><small>Location</small><SinhalaText>{CONTACT.address}</SinhalaText></span></p>
           </div>
         </div>
         <div className="footer-bottom">

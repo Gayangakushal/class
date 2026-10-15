@@ -1,0 +1,4367 @@
+{
+  "sources": [
+    {
+      "file": "src/components/site/ClassLocationsSection.tsx",
+      "text": "ඔබට පහසුම branch එකෙන් BS Business Studies class එකට සම්බන්ධ වෙන්න."
+    },
+    {
+      "file": "src/components/site/SiteLoader.tsx",
+      "text": "දැනුමෙන් ඉදිරියට..."
+    },
+    {
+      "file": "src/components/site/StudentResults.tsx",
+      "text": "ප්‍රතිඵල කියන්නේ අපේ දරුවන්ගේ කැපවීමේ සැබෑ සාක්ෂිය."
+    },
+    {
+      "file": "src/components/site/TimetableShowcase.tsx",
+      "text": "Online – මුළු ලංකාවටම"
+    },
+    {
+      "file": "src/components/site/TimetableShowcase.tsx",
+      "text": "Online – මුළු ලංකාවටම"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "A/L ව්‍යාපාර අධ්‍යයනය"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "මහනුවර, ශ්‍රී ලංකාව"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "සිසුන් සංඛ්‍යාව"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "ඉගැන්වීමේ අත්දැකීම්"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "දිවයිනේ ස්ථාන"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "A සාමාර්ථ"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "න්‍යාය පන්තිය"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "පුනරීක්ෂණ පන්තිය"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "ප්‍රශ්න පත්‍ර පන්තිය"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "පන්තියට සම්බන්ධ වන්නේ කෙසේද?"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "LMS එකට ලියාපදිංචි වී අදාළ පාඨමාලාව තෝරාගන්න. ලියාපදිංචිය තහවුරු වූ පසු පන්ති කාලසටහන සහ ද්‍රව්‍ය ඔබට ලැබේ."
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "පන්ති ගාස්තු කොපමණද?"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "පන්තිය මඟ හැරුණොත් recording බලන්න පුළුවන්ද?"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "Online සහ physical පන්ති අතර වෙනස කුමක්ද?"
+    },
+    {
+      "file": "src/lib/site-data.ts",
+      "text": "ප්‍රශ්න පත්‍ර නිවැරදි කරන්නේ කවුද?"
+    },
+    {
+      "file": "src/routes/about.tsx",
+      "text": "ගුරුතුමා ගැන"
+    },
+    {
+      "file": "src/routes/about.tsx",
+      "text": "[සිංහල හැඳින්වීමේ ඡේදය මෙහි එක් කරන්න.]"
+    },
+    {
+      "file": "src/routes/about.tsx",
+      "text": "කටපාඩම් කිරීමෙන් ඔබ්බට ගොස්, විෂය තේරුම්ගෙන විශ්වාසයෙන් පිළිතුරු ලියමු."
+    },
+    {
+      "file": "src/routes/about.tsx",
+      "text": "ඔබේ ඉගෙනුම් ගමන මෙතැනින් අරඹන්න."
+    },
+    {
+      "file": "src/routes/classes.tsx",
+      "text": "ඔබේ විභාග වර්ෂයට ගැළපෙන පන්තිය තෝරන්න."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "මුලින්ම විෂය තේරුම් ගනිමු"
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "ලකුණු ගන්න පිළිතුරු රටාව"
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "නිතර ලියමු. නිවැරදි කරමු."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "ඔබේ ගමන මැන බලමු"
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "ව්‍යාපාර ලෝකය තේරුම් ගන්න."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "Theory එක මතක තබාගැනීමෙන් එහාට — concepts තේරුම්ගෙන, examiner බලාපොරොත්තු වන විදිහට confident answer එකක් ලියන්න ඉගෙනගන්න."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "Business Studies කියන්නේ"
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "කටපාඩම් කරන විෂයක් නෙවෙයි."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "ඔබේ exam stage එකට හරියන class එකෙන් පටන්ගන්න."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "හොඳ result එකක් එන්නේ ක්‍රමවත් process එකකින්."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "විෂය කරුණු සරලව පැහැදිලි කරමින්, නිවැරදිව ප්‍රශ්නය කියවා examinerගේ expectation එකට ගැළපෙන answer එකක් ගොඩනගන්න ඔබට මඟ පෙන්වීම අපේ අරමුණයි."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "Recorded lessons, notes, papers සහ revision materials — එකම place එකකින්, ඕනෑම වෙලාවක."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "තවමත් ප්‍රශ්නයක් තියෙනවද? අපිට message එකක් දාන්න."
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "ඔබේ result එක වෙනස් කරන"
+    },
+    {
+      "file": "src/routes/index.tsx",
+      "text": "decision එක අද ගන්න."
+    }
+  ],
+  "words": 175,
+  "audit": [
+    {
+      "id": "w559aead08264d579",
+      "weight": 400,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w4ec5d86ab96e779c",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1980e84621c5b257",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w76f68a75f01ed76f",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w18ace4f574697f51",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w0d21bd52022ca7f7",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wc7175fa7a0db0d3c",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc0acecedfcc4b189",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w5962da48903e70be",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w1605024ff6fc93a3",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w0db52f4076c08251",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf38c764c8aa00b65",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0889113e04d3203f",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wd78523ad4a6a736c",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w26c8cca6e668df65",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "w86ae35d58a6aa3b5",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w5e89e9d8544af15b",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w064807585e6f7920",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wa1cb0b854f4b439b",
+      "weight": 400,
+      "glyphs": 10,
+      "clusters": 9
+    },
+    {
+      "id": "w40d1f6b8dd815d77",
+      "weight": 400,
+      "glyphs": 11,
+      "clusters": 11
+    },
+    {
+      "id": "w4a515f8bdc748ec6",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wafba1a0ce1c8af74",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wab530a13e4591498",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w52bb996e930438f5",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w8bddf4c0f769a012",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w4b60d190e95e5769",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w81df63580cc9ff15",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w19ed40bf62c399b8",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w3ebb153fb24e4411",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wf6a214f7a5fcda0c",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w2b214ddf33260165",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc7ff6dcd94d7161e",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wef0cd8ab202b9cad",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1614fe2998a734c7",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w15b3fed1e78c2f6f",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w18d3be21f3d890c0",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w1816f7281d8b83b4",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w3954816ee9f96cd4",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w149671576324c904",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w3a837bc2a200c1e3",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf6a172fc5853fdc3",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wacc871da1e930ae3",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wa7319e122f6f1118",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 7
+    },
+    {
+      "id": "w1fffac685c0e5f60",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w677405f71aac1c96",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wb4eaba4ef9ac0614",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w140ab3b4961471f4",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1c3cd4cd4738be50",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wa5ca0ef1038d4015",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wc50b9754bf42b373",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2870b85cc23e7f54",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8851fb44c29af4d5",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "waed393838ad2c974",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2225431bca72db96",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "wa8c232f0879780de",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2ac70159ea5d2e9b",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wc95861bd24f13c02",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w5036fb9991bc5678",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w7f5f504f1889e003",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w7f7ae572903b235b",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w24446851bba53ef7",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wd33eb5aec573585d",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w14ff863656bb96ba",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wa6089acd83462f1a",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wca7b8e05c5090cbf",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfbb56fc2a5fe03ca",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w66f3aaebb3fb3b5e",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w2c228dce1a17ad5a",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w076af55e73447525",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "w18ac7fc83579f79b",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wbf20ec70e738d02a",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w96fd2f8f5db8d6b1",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8a9da06b7cad04db",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wf903ba5bf7e01b58",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w93b1472c3042685e",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w795607db880a09d1",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7a46601f739ae64e",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2e2a405c518f779b",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w44dd0c9fece7227c",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w591b126832dfaa99",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w4376b9f756b37925",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w388589904e197d04",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w12529035cb6e5012",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w67948df47a19003c",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9c9f0110d622bf18",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w424d087bb9d5e184",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wf94deb9e549ed65b",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w0258c7dc0dbbebdb",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "wfd34d134c53e87c7",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wd685f493d53903c0",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2af7c218ac4b7c16",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "wbf794be2bf784827",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wcb8be87eaa7c20b6",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w88c5934ee3c4b304",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w8802281602358109",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w1379601665899d02",
+      "weight": 400,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w2e1bded4705ae3de",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w4afe6b7b5aa7b32c",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wadbd4689f32345a3",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2d88864fef4e2007",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w1faff0d34b958a83",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w5b515f8334030d87",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w20bc5f8c5e6b1409",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w782f01babfc3f9c5",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w16e7e3663724fe90",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "wa72749cfeacef68f",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w274dc914326dc250",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w681bab8011bed9a3",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wd63f82640818d2c8",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2362645af0f3a2de",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wcb121ef853fb04fe",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w52201f5c05aad5c9",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w0e61c6cfa448ddd2",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfd76085e8dff2fa4",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w13f1229b4f4049b1",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3d79fb6d2555c416",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w348e5b3f3e278bbd",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w6187a38625f57c6f",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w8e083ac139692515",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w59c65350f966079a",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w4eda0d4ffd7cf513",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wabf648d85ac57441",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0d6f15033f05ecc7",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wea79bd957f6b38ce",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wb06b6e808f317daa",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w5d779927bcaeb932",
+      "weight": 400,
+      "glyphs": 11,
+      "clusters": 6
+    },
+    {
+      "id": "w7a6476b9864cf290",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w54e9c23a7539acec",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w557b2cf6ab879869",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wa163ba7eedd4dc4d",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w1a27c67c3f701193",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w1e63ff45d12f8a36",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3dd33dfbb6e12a90",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wa3dc5cf4af642c63",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w671d895506959d42",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8c9bc349b1cd6fae",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "we768994eff542e85",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w8c4ac03ec39f7d22",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8af9280528fbbe58",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w988d6f2c729af921",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w3a1114e899880fbe",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wf88efe2abe921f4e",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wba50429ecb43fd69",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7c19771ca0600e24",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w757ab73d992dfa2e",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w23f0316bafe0c93d",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w816f2bb7f16e1424",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wbff077bcd5b14f61",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w7240216d2daa3359",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w03cc770611fd2131",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3ee720d3fe976df7",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w03ff810eff589ac1",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wbfefb83cf2785526",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wa4c8fa63084081e1",
+      "weight": 400,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "we77cbaf950ffae67",
+      "weight": 400,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wf670eab65b966766",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w793f429d2c205586",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w47bc134eace22ac0",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w3c94598f83757c6b",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w6adc24f29333cb84",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 1
+    },
+    {
+      "id": "w0069b0cb152032ee",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w13f63e5dfe022894",
+      "weight": 400,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wf0cc8e56e3f181b3",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w08d8478881e82bdc",
+      "weight": 400,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3c56ae8ccd7d5265",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w5f7ac833704815b7",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "we02475ece42e0350",
+      "weight": 400,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9399b403aba06081",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w98af565871b6372b",
+      "weight": 400,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8dc5e3387272cb49",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w7c8a597a89473dd8",
+      "weight": 400,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w12f738ed3151ad25",
+      "weight": 400,
+      "glyphs": 8,
+      "clusters": 4
+    },
+    {
+      "id": "wa63fb3b064e801fa",
+      "weight": 400,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "wd4f85d36757c12f0",
+      "weight": 400,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wbda050585a00f0f6",
+      "weight": 400,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w559aead08264d579",
+      "weight": 500,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w4ec5d86ab96e779c",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1980e84621c5b257",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w76f68a75f01ed76f",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w18ace4f574697f51",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w0d21bd52022ca7f7",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wc7175fa7a0db0d3c",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc0acecedfcc4b189",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w5962da48903e70be",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w1605024ff6fc93a3",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w0db52f4076c08251",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf38c764c8aa00b65",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0889113e04d3203f",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wd78523ad4a6a736c",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w26c8cca6e668df65",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "w86ae35d58a6aa3b5",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w5e89e9d8544af15b",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w064807585e6f7920",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wa1cb0b854f4b439b",
+      "weight": 500,
+      "glyphs": 10,
+      "clusters": 9
+    },
+    {
+      "id": "w40d1f6b8dd815d77",
+      "weight": 500,
+      "glyphs": 11,
+      "clusters": 11
+    },
+    {
+      "id": "w4a515f8bdc748ec6",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wafba1a0ce1c8af74",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wab530a13e4591498",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w52bb996e930438f5",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w8bddf4c0f769a012",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w4b60d190e95e5769",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w81df63580cc9ff15",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w19ed40bf62c399b8",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w3ebb153fb24e4411",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wf6a214f7a5fcda0c",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w2b214ddf33260165",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc7ff6dcd94d7161e",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wef0cd8ab202b9cad",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1614fe2998a734c7",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w15b3fed1e78c2f6f",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w18d3be21f3d890c0",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w1816f7281d8b83b4",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w3954816ee9f96cd4",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w149671576324c904",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w3a837bc2a200c1e3",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf6a172fc5853fdc3",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wacc871da1e930ae3",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wa7319e122f6f1118",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 7
+    },
+    {
+      "id": "w1fffac685c0e5f60",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w677405f71aac1c96",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wb4eaba4ef9ac0614",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w140ab3b4961471f4",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1c3cd4cd4738be50",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wa5ca0ef1038d4015",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wc50b9754bf42b373",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2870b85cc23e7f54",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8851fb44c29af4d5",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "waed393838ad2c974",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2225431bca72db96",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "wa8c232f0879780de",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2ac70159ea5d2e9b",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wc95861bd24f13c02",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w5036fb9991bc5678",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w7f5f504f1889e003",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w7f7ae572903b235b",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w24446851bba53ef7",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wd33eb5aec573585d",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w14ff863656bb96ba",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wa6089acd83462f1a",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wca7b8e05c5090cbf",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfbb56fc2a5fe03ca",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w66f3aaebb3fb3b5e",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w2c228dce1a17ad5a",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w076af55e73447525",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "w18ac7fc83579f79b",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wbf20ec70e738d02a",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w96fd2f8f5db8d6b1",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8a9da06b7cad04db",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wf903ba5bf7e01b58",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w93b1472c3042685e",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w795607db880a09d1",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7a46601f739ae64e",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2e2a405c518f779b",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w44dd0c9fece7227c",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w591b126832dfaa99",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w4376b9f756b37925",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w388589904e197d04",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w12529035cb6e5012",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w67948df47a19003c",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9c9f0110d622bf18",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w424d087bb9d5e184",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wf94deb9e549ed65b",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w0258c7dc0dbbebdb",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "wfd34d134c53e87c7",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wd685f493d53903c0",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2af7c218ac4b7c16",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "wbf794be2bf784827",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wcb8be87eaa7c20b6",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w88c5934ee3c4b304",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w8802281602358109",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w1379601665899d02",
+      "weight": 500,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w2e1bded4705ae3de",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w4afe6b7b5aa7b32c",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wadbd4689f32345a3",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2d88864fef4e2007",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w1faff0d34b958a83",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w5b515f8334030d87",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w20bc5f8c5e6b1409",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w782f01babfc3f9c5",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w16e7e3663724fe90",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "wa72749cfeacef68f",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w274dc914326dc250",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w681bab8011bed9a3",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wd63f82640818d2c8",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2362645af0f3a2de",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wcb121ef853fb04fe",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w52201f5c05aad5c9",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w0e61c6cfa448ddd2",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfd76085e8dff2fa4",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w13f1229b4f4049b1",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3d79fb6d2555c416",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w348e5b3f3e278bbd",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w6187a38625f57c6f",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w8e083ac139692515",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w59c65350f966079a",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w4eda0d4ffd7cf513",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wabf648d85ac57441",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0d6f15033f05ecc7",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wea79bd957f6b38ce",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wb06b6e808f317daa",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w5d779927bcaeb932",
+      "weight": 500,
+      "glyphs": 11,
+      "clusters": 6
+    },
+    {
+      "id": "w7a6476b9864cf290",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w54e9c23a7539acec",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w557b2cf6ab879869",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wa163ba7eedd4dc4d",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w1a27c67c3f701193",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w1e63ff45d12f8a36",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3dd33dfbb6e12a90",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wa3dc5cf4af642c63",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w671d895506959d42",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8c9bc349b1cd6fae",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "we768994eff542e85",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w8c4ac03ec39f7d22",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8af9280528fbbe58",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w988d6f2c729af921",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w3a1114e899880fbe",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wf88efe2abe921f4e",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wba50429ecb43fd69",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7c19771ca0600e24",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w757ab73d992dfa2e",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w23f0316bafe0c93d",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w816f2bb7f16e1424",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wbff077bcd5b14f61",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w7240216d2daa3359",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w03cc770611fd2131",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3ee720d3fe976df7",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w03ff810eff589ac1",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wbfefb83cf2785526",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wa4c8fa63084081e1",
+      "weight": 500,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "we77cbaf950ffae67",
+      "weight": 500,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wf670eab65b966766",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w793f429d2c205586",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w47bc134eace22ac0",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w3c94598f83757c6b",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w6adc24f29333cb84",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 1
+    },
+    {
+      "id": "w0069b0cb152032ee",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w13f63e5dfe022894",
+      "weight": 500,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wf0cc8e56e3f181b3",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w08d8478881e82bdc",
+      "weight": 500,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3c56ae8ccd7d5265",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w5f7ac833704815b7",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "we02475ece42e0350",
+      "weight": 500,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9399b403aba06081",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w98af565871b6372b",
+      "weight": 500,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8dc5e3387272cb49",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w7c8a597a89473dd8",
+      "weight": 500,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w12f738ed3151ad25",
+      "weight": 500,
+      "glyphs": 8,
+      "clusters": 4
+    },
+    {
+      "id": "wa63fb3b064e801fa",
+      "weight": 500,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "wd4f85d36757c12f0",
+      "weight": 500,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wbda050585a00f0f6",
+      "weight": 500,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w559aead08264d579",
+      "weight": 600,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w4ec5d86ab96e779c",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1980e84621c5b257",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w76f68a75f01ed76f",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w18ace4f574697f51",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w0d21bd52022ca7f7",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wc7175fa7a0db0d3c",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc0acecedfcc4b189",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w5962da48903e70be",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w1605024ff6fc93a3",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w0db52f4076c08251",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf38c764c8aa00b65",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0889113e04d3203f",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wd78523ad4a6a736c",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w26c8cca6e668df65",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "w86ae35d58a6aa3b5",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w5e89e9d8544af15b",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w064807585e6f7920",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wa1cb0b854f4b439b",
+      "weight": 600,
+      "glyphs": 10,
+      "clusters": 9
+    },
+    {
+      "id": "w40d1f6b8dd815d77",
+      "weight": 600,
+      "glyphs": 11,
+      "clusters": 11
+    },
+    {
+      "id": "w4a515f8bdc748ec6",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wafba1a0ce1c8af74",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wab530a13e4591498",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w52bb996e930438f5",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w8bddf4c0f769a012",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w4b60d190e95e5769",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w81df63580cc9ff15",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w19ed40bf62c399b8",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w3ebb153fb24e4411",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wf6a214f7a5fcda0c",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w2b214ddf33260165",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc7ff6dcd94d7161e",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wef0cd8ab202b9cad",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1614fe2998a734c7",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w15b3fed1e78c2f6f",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w18d3be21f3d890c0",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w1816f7281d8b83b4",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w3954816ee9f96cd4",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w149671576324c904",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w3a837bc2a200c1e3",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf6a172fc5853fdc3",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wacc871da1e930ae3",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wa7319e122f6f1118",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 7
+    },
+    {
+      "id": "w1fffac685c0e5f60",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w677405f71aac1c96",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wb4eaba4ef9ac0614",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w140ab3b4961471f4",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1c3cd4cd4738be50",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wa5ca0ef1038d4015",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wc50b9754bf42b373",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2870b85cc23e7f54",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8851fb44c29af4d5",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "waed393838ad2c974",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2225431bca72db96",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "wa8c232f0879780de",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2ac70159ea5d2e9b",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wc95861bd24f13c02",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w5036fb9991bc5678",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w7f5f504f1889e003",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w7f7ae572903b235b",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w24446851bba53ef7",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wd33eb5aec573585d",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w14ff863656bb96ba",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wa6089acd83462f1a",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wca7b8e05c5090cbf",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfbb56fc2a5fe03ca",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w66f3aaebb3fb3b5e",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w2c228dce1a17ad5a",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w076af55e73447525",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "w18ac7fc83579f79b",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wbf20ec70e738d02a",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w96fd2f8f5db8d6b1",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8a9da06b7cad04db",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wf903ba5bf7e01b58",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w93b1472c3042685e",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w795607db880a09d1",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7a46601f739ae64e",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2e2a405c518f779b",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w44dd0c9fece7227c",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w591b126832dfaa99",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w4376b9f756b37925",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w388589904e197d04",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w12529035cb6e5012",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w67948df47a19003c",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9c9f0110d622bf18",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w424d087bb9d5e184",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wf94deb9e549ed65b",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w0258c7dc0dbbebdb",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "wfd34d134c53e87c7",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wd685f493d53903c0",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2af7c218ac4b7c16",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "wbf794be2bf784827",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wcb8be87eaa7c20b6",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w88c5934ee3c4b304",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w8802281602358109",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w1379601665899d02",
+      "weight": 600,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w2e1bded4705ae3de",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w4afe6b7b5aa7b32c",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wadbd4689f32345a3",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2d88864fef4e2007",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w1faff0d34b958a83",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w5b515f8334030d87",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w20bc5f8c5e6b1409",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w782f01babfc3f9c5",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w16e7e3663724fe90",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "wa72749cfeacef68f",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w274dc914326dc250",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w681bab8011bed9a3",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wd63f82640818d2c8",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2362645af0f3a2de",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wcb121ef853fb04fe",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w52201f5c05aad5c9",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w0e61c6cfa448ddd2",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfd76085e8dff2fa4",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w13f1229b4f4049b1",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3d79fb6d2555c416",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w348e5b3f3e278bbd",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w6187a38625f57c6f",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w8e083ac139692515",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w59c65350f966079a",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w4eda0d4ffd7cf513",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wabf648d85ac57441",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0d6f15033f05ecc7",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wea79bd957f6b38ce",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wb06b6e808f317daa",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w5d779927bcaeb932",
+      "weight": 600,
+      "glyphs": 11,
+      "clusters": 6
+    },
+    {
+      "id": "w7a6476b9864cf290",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w54e9c23a7539acec",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w557b2cf6ab879869",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wa163ba7eedd4dc4d",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w1a27c67c3f701193",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w1e63ff45d12f8a36",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3dd33dfbb6e12a90",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wa3dc5cf4af642c63",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w671d895506959d42",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8c9bc349b1cd6fae",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "we768994eff542e85",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w8c4ac03ec39f7d22",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8af9280528fbbe58",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w988d6f2c729af921",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w3a1114e899880fbe",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wf88efe2abe921f4e",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wba50429ecb43fd69",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7c19771ca0600e24",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w757ab73d992dfa2e",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w23f0316bafe0c93d",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w816f2bb7f16e1424",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wbff077bcd5b14f61",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w7240216d2daa3359",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w03cc770611fd2131",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3ee720d3fe976df7",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w03ff810eff589ac1",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wbfefb83cf2785526",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wa4c8fa63084081e1",
+      "weight": 600,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "we77cbaf950ffae67",
+      "weight": 600,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wf670eab65b966766",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w793f429d2c205586",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w47bc134eace22ac0",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w3c94598f83757c6b",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w6adc24f29333cb84",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 1
+    },
+    {
+      "id": "w0069b0cb152032ee",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w13f63e5dfe022894",
+      "weight": 600,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wf0cc8e56e3f181b3",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w08d8478881e82bdc",
+      "weight": 600,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3c56ae8ccd7d5265",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w5f7ac833704815b7",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "we02475ece42e0350",
+      "weight": 600,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9399b403aba06081",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w98af565871b6372b",
+      "weight": 600,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8dc5e3387272cb49",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w7c8a597a89473dd8",
+      "weight": 600,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w12f738ed3151ad25",
+      "weight": 600,
+      "glyphs": 8,
+      "clusters": 4
+    },
+    {
+      "id": "wa63fb3b064e801fa",
+      "weight": 600,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "wd4f85d36757c12f0",
+      "weight": 600,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wbda050585a00f0f6",
+      "weight": 600,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w559aead08264d579",
+      "weight": 700,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "w4ec5d86ab96e779c",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1980e84621c5b257",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w76f68a75f01ed76f",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w18ace4f574697f51",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w0d21bd52022ca7f7",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wc7175fa7a0db0d3c",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc0acecedfcc4b189",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w5962da48903e70be",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w1605024ff6fc93a3",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w0db52f4076c08251",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf38c764c8aa00b65",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0889113e04d3203f",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wd78523ad4a6a736c",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w26c8cca6e668df65",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "w86ae35d58a6aa3b5",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w5e89e9d8544af15b",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w064807585e6f7920",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wa1cb0b854f4b439b",
+      "weight": 700,
+      "glyphs": 10,
+      "clusters": 9
+    },
+    {
+      "id": "w40d1f6b8dd815d77",
+      "weight": 700,
+      "glyphs": 11,
+      "clusters": 11
+    },
+    {
+      "id": "w4a515f8bdc748ec6",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wafba1a0ce1c8af74",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wab530a13e4591498",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w52bb996e930438f5",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w8bddf4c0f769a012",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w4b60d190e95e5769",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "w81df63580cc9ff15",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w19ed40bf62c399b8",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w3ebb153fb24e4411",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 9
+    },
+    {
+      "id": "wf6a214f7a5fcda0c",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w2b214ddf33260165",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wc7ff6dcd94d7161e",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wef0cd8ab202b9cad",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1614fe2998a734c7",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w15b3fed1e78c2f6f",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w18d3be21f3d890c0",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w1816f7281d8b83b4",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w3954816ee9f96cd4",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w149671576324c904",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w3a837bc2a200c1e3",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wf6a172fc5853fdc3",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wacc871da1e930ae3",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wa7319e122f6f1118",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 7
+    },
+    {
+      "id": "w1fffac685c0e5f60",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w677405f71aac1c96",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 8
+    },
+    {
+      "id": "wb4eaba4ef9ac0614",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w140ab3b4961471f4",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w1c3cd4cd4738be50",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wa5ca0ef1038d4015",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wc50b9754bf42b373",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2870b85cc23e7f54",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8851fb44c29af4d5",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "waed393838ad2c974",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2225431bca72db96",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "wa8c232f0879780de",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w2ac70159ea5d2e9b",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wc95861bd24f13c02",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w5036fb9991bc5678",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w7f5f504f1889e003",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w7f7ae572903b235b",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w24446851bba53ef7",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wd33eb5aec573585d",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w14ff863656bb96ba",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wa6089acd83462f1a",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wca7b8e05c5090cbf",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfbb56fc2a5fe03ca",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w66f3aaebb3fb3b5e",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w2c228dce1a17ad5a",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w076af55e73447525",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "w18ac7fc83579f79b",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wbf20ec70e738d02a",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w96fd2f8f5db8d6b1",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8a9da06b7cad04db",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wf903ba5bf7e01b58",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w93b1472c3042685e",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w795607db880a09d1",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7a46601f739ae64e",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2e2a405c518f779b",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w44dd0c9fece7227c",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w591b126832dfaa99",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w4376b9f756b37925",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w388589904e197d04",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w12529035cb6e5012",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w67948df47a19003c",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9c9f0110d622bf18",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w424d087bb9d5e184",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wf94deb9e549ed65b",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w0258c7dc0dbbebdb",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "wfd34d134c53e87c7",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wd685f493d53903c0",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2af7c218ac4b7c16",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 6
+    },
+    {
+      "id": "wbf794be2bf784827",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "wcb8be87eaa7c20b6",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w88c5934ee3c4b304",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w8802281602358109",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w1379601665899d02",
+      "weight": 700,
+      "glyphs": 9,
+      "clusters": 6
+    },
+    {
+      "id": "w2e1bded4705ae3de",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w4afe6b7b5aa7b32c",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wadbd4689f32345a3",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w2d88864fef4e2007",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w1faff0d34b958a83",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w5b515f8334030d87",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w20bc5f8c5e6b1409",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w782f01babfc3f9c5",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w16e7e3663724fe90",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "wa72749cfeacef68f",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w274dc914326dc250",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 7
+    },
+    {
+      "id": "w681bab8011bed9a3",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "wd63f82640818d2c8",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w2362645af0f3a2de",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wcb121ef853fb04fe",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "w52201f5c05aad5c9",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w0e61c6cfa448ddd2",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wfd76085e8dff2fa4",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w13f1229b4f4049b1",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3d79fb6d2555c416",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w348e5b3f3e278bbd",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "w6187a38625f57c6f",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 5
+    },
+    {
+      "id": "w8e083ac139692515",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w59c65350f966079a",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w4eda0d4ffd7cf513",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wabf648d85ac57441",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "w0d6f15033f05ecc7",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "wea79bd957f6b38ce",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wb06b6e808f317daa",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w5d779927bcaeb932",
+      "weight": 700,
+      "glyphs": 11,
+      "clusters": 6
+    },
+    {
+      "id": "w7a6476b9864cf290",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w54e9c23a7539acec",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w557b2cf6ab879869",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 6
+    },
+    {
+      "id": "wa163ba7eedd4dc4d",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w1a27c67c3f701193",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w1e63ff45d12f8a36",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3dd33dfbb6e12a90",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "wa3dc5cf4af642c63",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 2
+    },
+    {
+      "id": "w671d895506959d42",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w8c9bc349b1cd6fae",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "we768994eff542e85",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w8c4ac03ec39f7d22",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8af9280528fbbe58",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w988d6f2c729af921",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w3a1114e899880fbe",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wf88efe2abe921f4e",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "wba50429ecb43fd69",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w7c19771ca0600e24",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 3
+    },
+    {
+      "id": "w757ab73d992dfa2e",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w23f0316bafe0c93d",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w816f2bb7f16e1424",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wbff077bcd5b14f61",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w7240216d2daa3359",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w03cc770611fd2131",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w3ee720d3fe976df7",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 6
+    },
+    {
+      "id": "w03ff810eff589ac1",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "wbfefb83cf2785526",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "wa4c8fa63084081e1",
+      "weight": 700,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "we77cbaf950ffae67",
+      "weight": 700,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wf670eab65b966766",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w793f429d2c205586",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w47bc134eace22ac0",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 4
+    },
+    {
+      "id": "w3c94598f83757c6b",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w6adc24f29333cb84",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 1
+    },
+    {
+      "id": "w0069b0cb152032ee",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 3
+    },
+    {
+      "id": "w13f63e5dfe022894",
+      "weight": 700,
+      "glyphs": 5,
+      "clusters": 5
+    },
+    {
+      "id": "wf0cc8e56e3f181b3",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w08d8478881e82bdc",
+      "weight": 700,
+      "glyphs": 2,
+      "clusters": 2
+    },
+    {
+      "id": "w3c56ae8ccd7d5265",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 3
+    },
+    {
+      "id": "w5f7ac833704815b7",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 5
+    },
+    {
+      "id": "we02475ece42e0350",
+      "weight": 700,
+      "glyphs": 6,
+      "clusters": 4
+    },
+    {
+      "id": "w9399b403aba06081",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "w98af565871b6372b",
+      "weight": 700,
+      "glyphs": 3,
+      "clusters": 3
+    },
+    {
+      "id": "w8dc5e3387272cb49",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 4
+    },
+    {
+      "id": "w7c8a597a89473dd8",
+      "weight": 700,
+      "glyphs": 7,
+      "clusters": 5
+    },
+    {
+      "id": "w12f738ed3151ad25",
+      "weight": 700,
+      "glyphs": 8,
+      "clusters": 4
+    },
+    {
+      "id": "wa63fb3b064e801fa",
+      "weight": 700,
+      "glyphs": 4,
+      "clusters": 2
+    },
+    {
+      "id": "wd4f85d36757c12f0",
+      "weight": 700,
+      "glyphs": 1,
+      "clusters": 1
+    },
+    {
+      "id": "wbda050585a00f0f6",
+      "weight": 700,
+      "glyphs": 1,
+      "clusters": 1
+    }
+  ]
+}

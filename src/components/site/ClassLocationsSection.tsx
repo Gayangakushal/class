@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 import { ArrowUpRight, Clock3, MapPin, Phone } from "lucide-react";
 import { CLASS_LOCATIONS, type ClassLocation } from "@/lib/site-data";
 import { Reveal } from "./HomeShowcase";
@@ -96,9 +97,7 @@ export function ClassLocationsSection() {
             </h2>
           </div>
           <div className="locations-intro">
-            <p className="si" lang="si">
-              ඔබට පහසුම branch එකෙන් BS Business Studies class එකට සම්බන්ධ වෙන්න.
-            </p>
+            <p className="si" lang="si"><SinhalaText>{"ඔබට පහසුම branch එකෙන් BS Business Studies class එකට සම්බන්ධ වෙන්න."}</SinhalaText></p>
             <p>
               Preview locations for layout purposes. Confirmed class centre details can be updated
               here later.

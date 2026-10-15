@@ -1,3 +1,4 @@
+import { SinhalaText } from "@/components/site/SinhalaText";
 import { createFileRoute } from "@tanstack/react-router";
 import { TEACHER_PORTRAIT } from "@/lib/site-data";
 import { LmsButton } from "@/components/site/LmsButton";
@@ -61,7 +62,7 @@ function About() {
             <img
               src={TEACHER_PORTRAIT}
               alt="Deshan Pathinayake, A/L Business Studies teacher"
-              width={1024}
+              width={1536}
               height={1536}
               loading="lazy"
               decoding="async"
@@ -113,9 +114,7 @@ function About() {
           <br />
           <em>Then make it your own.</em>
         </h2>
-        <p lang="si" className="si">
-          කටපාඩම් කිරීමෙන් ඔබ්බට ගොස්, විෂය තේරුම්ගෙන විශ්වාසයෙන් පිළිතුරු ලියමු.
-        </p>
+        <p lang="si" className="si"><SinhalaText>{"කටපාඩම් කිරීමෙන් ඔබ්බට ගොස්, විෂය තේරුම්ගෙන විශ්වාසයෙන් පිළිතුරු ලියමු."}</SinhalaText></p>
         <p>
           Our aim is simple: connect business concepts to everyday decisions, then turn that
           understanding into clear, structured answers.
@@ -151,9 +150,7 @@ function About() {
               <br />
               Start learning.
             </h2>
-            <p lang="si" className="si">
-              ඔබේ ඉගෙනුම් ගමන මෙතැනින් අරඹන්න.
-            </p>
+            <p lang="si" className="si"><SinhalaText>{"ඔබේ ඉගෙනුම් ගමන මෙතැනින් අරඹන්න."}</SinhalaText></p>
           </div>
           <LmsButton size="lg">Enter LMS</LmsButton>
         </div>

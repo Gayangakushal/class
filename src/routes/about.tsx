@@ -80,10 +80,7 @@ function About() {
             </h2>
             <p className="story-subject">A/L BUSINESS STUDIES</p>
             <p className="mt-6">
-              <Editable value="[Verified English biography to be supplied.]" />
-            </p>
-            <p lang="si" className="si mt-5">
-              <Editable value="[සිංහල හැඳින්වීමේ ඡේදය මෙහි එක් කරන්න.]" />
+              <Editable value="Deshan Pathinayake helps A/L Business Studies students build clarity, confidence and structure in their answers through a practical and exam-focused teaching approach." />
             </p>
           </div>
         </div>

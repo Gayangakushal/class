@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+# Project Development Notes
+
+Keep the project in a working state and avoid committing secrets or deployment credentials.

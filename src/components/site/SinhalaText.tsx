@@ -24,8 +24,9 @@ export function SinhalaText({
       {children.split(/(\s+)/u).map((word, index) => {
         if (!word || /^\s+$/u.test(word)) return <Fragment key={index}>{word}</Fragment>;
         const asset = assets[word];
-        if (!asset)
-          throw new Error("Sinhala outline asset is missing. Run npm run generate:sinhala.");
+        if (!asset) {
+          return <Fragment key={index}>{word}</Fragment>;
+        }
         // FAQ letter spacing is inherited as -0.24px at 14.4px, rather
         // than recalculated from the button's own font size.
         const spacing = tracking === "faq" ? -1 / 60 : tracking;

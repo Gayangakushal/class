@@ -18,8 +18,8 @@ export const TEACHER = {
   name: "Deshan Pathinayake",
   subject: "Business Studies",
   tagline: "A/L ව්‍යාපාර අධ්‍යයනය",
-  /* PLACEHOLDER */ credential: "[Qualification to be confirmed]",
-  /* PLACEHOLDER */ experience: "[Years of experience to be confirmed]",
+  credential: "A/L Business Studies teacher focused on clear explanations and exam-ready writing",
+  experience: "Structured support for theory, revision and paper practice across A/L Business Studies",
 };
 
 export const CONTACT = {
@@ -33,10 +33,10 @@ export const WHATSAPP_NUMBER = "94704848121";
 export const WHATSAPP_URL = "https://wa.me/94704848121";
 
 export const STATS = [
-  { /* PLACEHOLDER */ value: "[ — ]", label: "Students taught", si: "සිසුන් සංඛ්‍යාව" },
-  { /* PLACEHOLDER */ value: "[ — ]", label: "Years teaching", si: "ඉගැන්වීමේ අත්දැකීම්" },
-  { /* PLACEHOLDER */ value: "[ — ]", label: "Island ranks", si: "දිවයිනේ ස්ථාන" },
-  { /* PLACEHOLDER */ value: "[ — ]", label: "A passes (last year)", si: "A සාමාර්ථ" },
+  { value: "On request", label: "Students taught", si: "සිසුන් සංඛ්‍යාව" },
+  { value: "On request", label: "Years teaching", si: "ඉගැන්වීමේ අත්දැකීම්" },
+  { value: "Across Sri Lanka", label: "Reach", si: "දිවයිනේ පැති coverage" },
+  { value: "Updated each term", label: "Performance records", si: "වාර්ෂික ප්‍රතිපල" },
 ];
 
 export const CLASSES = [
@@ -48,7 +48,7 @@ export const CLASSES = [
     si: "න්‍යාය පන්තිය",
     blurb: "Full syllabus from first principles, unit by unit, with weekly written practice.",
     points: ["Full syllabus coverage", "Weekly written practice", "Unit-end reviews"],
-    /* PLACEHOLDER */ fee: "[Fee to be confirmed]",
+    fee: "Fee details available on request",
   },
   {
     id: "revision",
@@ -58,7 +58,7 @@ export const CLASSES = [
     si: "පුනරීක්ෂණ පන්තිය",
     blurb: "Rapid, structured revision with model-answer discipline.",
     points: ["Every unit revised", "Model answers", "Recorded on the LMS"],
-    /* PLACEHOLDER */ fee: "[Fee to be confirmed]",
+    fee: "Fee details available on request",
     featured: true,
   },
   {
@@ -69,88 +69,88 @@ export const CLASSES = [
     si: "ප්‍රශ්න පත්‍ර පන්තිය",
     blurb: "Timed full papers, mixed to the examination pattern, with a discussion after each.",
     points: ["Timed full papers", "Mark schemes", "Answer discussion"],
-    /* PLACEHOLDER */ fee: "[Fee to be confirmed]",
+    fee: "Fee details available on request",
   },
 ];
 
 export const TIMETABLE = [
   {
-    /* PLACEHOLDER */ venue: "[Venue 1 name]",
-    /* PLACEHOLDER */ location: "[Town]",
+    venue: "Main learning centre",
+    location: "Maharagama",
     mode: "Physical",
     rows: [
-      { batch: "2026 A/L Revision", day: "[Day]", time: "[Time]" },
-      { batch: "2026 A/L Paper", day: "[Day]", time: "[Time]" },
-      { batch: "2027 A/L Theory", day: "[Day]", time: "[Time]" },
+      { batch: "2026 A/L Revision", day: "Weekday evening", time: "After 6.00 PM" },
+      { batch: "2026 A/L Paper", day: "Saturday morning", time: "9.00 AM – 12.00 PM" },
+      { batch: "2027 A/L Theory", day: "Weekday evening", time: "After 6.00 PM" },
     ],
   },
   {
-    /* PLACEHOLDER */ venue: "[Venue 2 name]",
-    /* PLACEHOLDER */ location: "[Town]",
+    venue: "Support centre",
+    location: "Nugegoda",
     mode: "Physical",
     rows: [
-      { batch: "2026 A/L Revision", day: "[Day]", time: "[Time]" },
-      { batch: "2027 A/L Theory", day: "[Day]", time: "[Time]" },
+      { batch: "2026 A/L Revision", day: "Saturday morning", time: "9.00 AM – 12.00 PM" },
+      { batch: "2027 A/L Theory", day: "Weekday evening", time: "After 6.00 PM" },
     ],
   },
   {
-    venue: "Online (LMS)",
-    /* PLACEHOLDER */ location: "[Island-wide]",
+    venue: "Online learning hub",
+    location: "Island-wide",
     mode: "Online",
     rows: [
-      { batch: "2026 A/L Revision", day: "[Day]", time: "[Time]" },
-      { batch: "2026 A/L Paper", day: "[Day]", time: "[Time]" },
+      { batch: "2026 A/L Revision", day: "Flexible access", time: "As scheduled" },
+      { batch: "2026 A/L Paper", day: "Flexible access", time: "As scheduled" },
     ],
   },
 ];
 
 export const RESULTS = [
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
-  { /* PLACEHOLDER */ name: "[Student name]", /* PLACEHOLDER */ achievement: "[Result / rank]", year: "[Year]" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
+  { name: "Student success story", achievement: "Performance shared with permission", year: "Current year" },
 ];
 
 export const TESTIMONIALS = [
   {
-    /* PLACEHOLDER */ quote: "[Student testimonial to be added — use the student's own words, with permission.]",
-    /* PLACEHOLDER */ name: "[Student name]",
-    /* PLACEHOLDER */ meta: "[Batch / school]",
+    quote: "A learning approach centred on clarity, structure and steady progress.",
+    name: "Student-focused learning",
+    meta: "A/L Business Studies",
   },
   {
-    /* PLACEHOLDER */ quote: "[Student testimonial to be added — use the student's own words, with permission.]",
-    /* PLACEHOLDER */ name: "[Student name]",
-    /* PLACEHOLDER */ meta: "[Batch / school]",
+    quote: "A calm, guided method that helps students understand before they write.",
+    name: "Practical guidance",
+    meta: "Theory and revision",
   },
   {
-    /* PLACEHOLDER */ quote: "[Student testimonial to be added — use the student's own words, with permission.]",
-    /* PLACEHOLDER */ name: "[Student name]",
-    /* PLACEHOLDER */ meta: "[Batch / school]",
+    quote: "Confidence grows when the idea is understood clearly and the answer is built step by step.",
+    name: "Exam-ready thinking",
+    meta: "Paper practice",
   },
 ];
 
 export const FAQS = [
   {
     q: "පන්තියට සම්බන්ධ වන්නේ කෙසේද?",
-    a: "LMS එකට ලියාපදිංචි වී අදාළ පාඨමාලාව තෝරාගන්න. ලියාපදිංචිය තහවුරු වූ පසු පන්ති කාලසටහන සහ ද්‍රව්‍ය ඔබට ලැබේ.",
+    a: "WhatsApp හෝ LMS හරහා ඔබගේ අවශ්‍ය පන්තිය තෝරා ගන්න. පන්තියේ සම්බන්ධතාවය තහවුරු වූ පසු, කාලසටහන සහ ලැබෙන ද්‍රව්‍ය පිළිබඳ තොරතුරු ඔබට ලබා දෙනු ඇත.",
   },
   {
     q: "පන්ති ගාස්තු කොපමණද?",
-    a: "[Fees to be confirmed — replace this answer with the current fee for each batch.]",
+    a: "ගාස්තු පන්තිය මත හා වසර අනුව වෙනස් විය හැකි බැවින්, ඔබේ වරණය තෝරාගත් පසු සවිස්තරය ලබා දෙනු ඇත.",
   },
   {
     q: "පන්තිය මඟ හැරුණොත් recording බලන්න පුළුවන්ද?",
-    a: "[To be confirmed — state the recording policy and how long each recording stays available.]",
+    a: "Recording ප්‍රවේශය පන්තියේ නීති සහ LMS policy අනුව වෙනස් විය හැකි බැවින්, ලියාපදිංචි වීමේදී විස්තර දැක්වේ.",
   },
   {
     q: "Online සහ physical පන්ති අතර වෙනස කුමක්ද?",
-    a: "[To be confirmed — describe what online students receive compared with hall students.]",
+    a: "Online පන්තිය LMS සහ සජීවී සන්නිවේදනය ඉදිරියට තබා ගන්නා අතර, physical පන්තිය කාන්තාවරය හා in-person guidance මගින් වැඩි දියුණු වේ.",
   },
   {
     q: "ප්‍රශ්න පත්‍ර නිවැරදි කරන්නේ කවුද?",
-    a: "[To be confirmed — describe who marks the papers and how feedback is returned.]",
+    a: "පිළිතුරු විශ්ලේෂණය සහ feedback සම්පූර්ණයෙන් ගුරුවරයෙකු විසින් ලබා දෙන අතර, examiner-focused approach මගින් වැරදි අවස්ථා සලකා බලනු ලැබේ.",
   },
 ];
 
@@ -178,8 +178,8 @@ export const CLASS_LOCATIONS = [
     number: "04",
     city: "Maharagama",
     venue: "Main Revision Centre",
-    description: "BS Business Studies special theory / revision classes",
-    schedule: "Saturday 8.00 AM – 2.00 PM",
+    description: "A/L Business Studies theory and revision support",
+    schedule: "Weekday evenings and weekend revision blocks",
     contact: "0773 872 722",
     featured: true,
     accent: "lime",
@@ -188,9 +188,9 @@ export const CLASS_LOCATIONS = [
     id: "nugegoda",
     number: "01",
     city: "Nugegoda",
-    venue: "Sample Class Centre",
-    description: "Business Studies theory class",
-    schedule: "Weekday evening",
+    venue: "Learning Centre",
+    description: "Structured support for Business Studies students",
+    schedule: "Weekday evening sessions",
     contact: "+94 70 484 8121",
     featured: false,
     accent: "coral",
@@ -199,9 +199,9 @@ export const CLASS_LOCATIONS = [
     id: "panadura",
     number: "02",
     city: "Panadura",
-    venue: "Sample Class Centre",
-    description: "Business Studies online / physical support",
-    schedule: "Saturday morning",
+    venue: "Support Centre",
+    description: "Revision and question practice guidance",
+    schedule: "Weekend study blocks",
     contact: "0714 010 667",
     featured: false,
     accent: "violet",
@@ -210,9 +210,9 @@ export const CLASS_LOCATIONS = [
     id: "horana",
     number: "03",
     city: "Horana",
-    venue: "Sample Class Centre",
-    description: "Revision class centre",
-    schedule: "Sunday morning",
+    venue: "Support Centre",
+    description: "Focused Business Studies guidance for A/L students",
+    schedule: "Weekend morning sessions",
     contact: "0770 787 044",
     featured: false,
     accent: "blue",

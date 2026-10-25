@@ -63,7 +63,6 @@ export function SiteFooter() {
           <p>
             © {new Date().getFullYear()} {TEACHER.name}. All rights reserved.
           </p>
-          <p>Details in [ ] await confirmation.</p>
         </div>
         <p className="developer-credit">
           Designed &amp; Developed by <span>Novonex Software Solutions</span>

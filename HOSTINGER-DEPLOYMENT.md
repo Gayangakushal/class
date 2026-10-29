@@ -1,7 +1,7 @@
 ﻿# Hostinger deployment — deshanpathinayake.lk
 
-Upload file: ../deshanpathinayake-hostinger-ready.zip (10,772,444 bytes).
-SHA-256: 440CBA06966A27D35FBDB4288A59C30DDEB092B0215B5DC625E706B847AE6F6E
+Upload file: ../deshanpathinayake-hostinger-ready.zip (10,772,684 bytes).
+SHA-256: 1563019F2565BF4980DC77A799AE2EEECD3C2EF6BA2775D09E858A38228422D7
 
 ## What changed
 
@@ -57,3 +57,5 @@ In another terminal, run `npm run test:static` and `node scripts/test-motion.mjs
 
 Normal-motion browser checks also passed at 375 and 1440 pixels: loader dismissal, completed typewriter, and FAQ expansion. Hero screenshots are in deployment-review/.
 
+
+Responsive header/footer update: compact mobile branding with LMS access in the mobile menu; full-width footer introduction and contacts around two navigation columns below 601px; flexible desktop columns and safe contact wrapping. Production build passed, and scripts/test-responsive.mjs passed at 320, 360, 375, 390, 600, 601, 768, 1023, 1024, and 1440 pixels, checking clipping, header overlap, and mobile navigation. Results: deployment-review/responsive-results.json. ZIP regenerated and all 52 files verified.

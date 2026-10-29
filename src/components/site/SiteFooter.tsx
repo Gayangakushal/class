@@ -12,7 +12,7 @@ export function SiteFooter() {
           DESHAN<span>®</span>
         </div>
         <div className="footer-grid">
-          <div>
+          <div className="footer-intro">
             <p className="footer-brand">{TEACHER.name}</p>
             <p>{TEACHER.subject} · G.C.E. Advanced Level</p>
             <p>
@@ -51,7 +51,7 @@ export function SiteFooter() {
               </Link>
             ))}
           </nav>
-          <div>
+          <div className="footer-contact">
             <h2>Get in touch</h2>
             <a className="footer-contact-item" href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}><Phone aria-hidden="true" /><span><small>Phone</small>{CONTACT.phone}</span></a>
             <a className="footer-contact-item" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" /><span><small>WhatsApp</small>{CONTACT.whatsapp}</span></a>

@@ -1,0 +1,72 @@
+[
+  {
+    "width": 320,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "130px 130px"
+  },
+  {
+    "width": 360,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "150px 150px"
+  },
+  {
+    "width": 375,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "157.5px 157.5px"
+  },
+  {
+    "width": 390,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "165px 165px"
+  },
+  {
+    "width": 600,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "270px 270px"
+  },
+  {
+    "width": 601,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "264.5px 264.5px"
+  },
+  {
+    "width": 768,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "336px 336px"
+  },
+  {
+    "width": 1023,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "passed",
+    "columns": "463.5px 463.5px"
+  },
+  {
+    "width": 1024,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "desktop navigation",
+    "columns": "310.141px 155.078px 177.234px 221.547px"
+  },
+  {
+    "width": 1440,
+    "header": "no overlap or clipping",
+    "footer": "no clipping",
+    "menu": "desktop navigation",
+    "columns": "379.062px 189.547px 216.609px 270.766px"
+  }
+]

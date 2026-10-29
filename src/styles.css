@@ -1730,7 +1730,7 @@
 .header-inner {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
   min-height: 80px;
 }
 .brand {
@@ -1750,9 +1750,17 @@
   border-radius: 50%;
   font-weight: 800;
 }
+.brand > span:last-child {
+  min-width: 0;
+}
+.header-lms,
+.menu-toggle {
+  flex-shrink: 0;
+}
 .brand strong {
   display: block;
   font-size: 0.95rem;
+  white-space: nowrap;
   letter-spacing: -0.03em;
 }
 .brand small {
@@ -1885,13 +1893,13 @@
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 0.7fr 0.8fr 1fr;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.7fr) minmax(0, 0.8fr) minmax(0, 1fr);
   gap: 2rem;
   padding-block: 3.5rem;
 }
 .footer-grid > * {
   min-width: 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 .footer-brand {
   color: white;
@@ -3316,5 +3324,70 @@ article:hover .sample-cover img { transform: scale(1.035); }
   }
   .highlight-card {
     min-height: 118px;
+  }
+}
+
+/* Keep branding readable and give each footer section room on small screens. */
+.footer-contact-item > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.footer-bottom > p,
+.developer-credit {
+  overflow-wrap: break-word;
+}
+@media (max-width: 600px) {
+  .header-inner {
+    min-height: 72px;
+    gap: 0.75rem;
+  }
+  .header-lms {
+    display: none;
+  }
+  .brand {
+    gap: 0.6rem;
+  }
+  .brand strong {
+    font-size: clamp(0.8rem, 3.7vw, 0.95rem);
+  }
+  .brand small {
+    font-size: clamp(0.48rem, 2.1vw, 0.6rem);
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+  .site-footer {
+    padding-top: 2rem;
+  }
+  .footer-word {
+    font-size: clamp(3rem, 16vw, 6rem);
+    padding-bottom: 1.5rem;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 1.25rem;
+    padding-block: 2rem;
+  }
+  .footer-intro,
+  .footer-contact {
+    grid-column: 1 / -1;
+  }
+  .footer-grid h2 {
+    margin-bottom: 0.65rem;
+  }
+  .footer-social-link {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+  }
+  .footer-contact-item {
+    min-height: 44px;
+    align-items: center;
+  }
+  .footer-bottom {
+    padding-block: 1.25rem;
+  }
+  .developer-credit {
+    padding-block: 1.25rem;
+    padding-inline: 2rem;
   }
 }

@@ -1,0 +1,101 @@
+{
+  "results": [
+    {
+      "width": 375,
+      "route": "/",
+      "title": "Deshan Pathinayake | A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 375,
+      "route": "/about",
+      "title": "About Deshan Pathinayake — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 375,
+      "route": "/classes",
+      "title": "Classes & Fees — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 375,
+      "route": "/timetable",
+      "title": "2027 A/L Business Studies — Class Timetable",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "title": "Deshan Pathinayake | A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "title": "About Deshan Pathinayake — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 768,
+      "route": "/classes",
+      "title": "Classes & Fees — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 768,
+      "route": "/timetable",
+      "title": "2027 A/L Business Studies — Class Timetable",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "title": "Deshan Pathinayake | A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "title": "About Deshan Pathinayake — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 1440,
+      "route": "/classes",
+      "title": "Classes & Fees — A/L Business Studies",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    },
+    {
+      "width": 1440,
+      "route": "/timetable",
+      "title": "2027 A/L Business Studies — Class Timetable",
+      "direct": true,
+      "refresh": true,
+      "images": true
+    }
+  ],
+  "failures": []
+}

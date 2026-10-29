@@ -11,7 +11,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "generate:sinhala": "node scripts/generate-sinhala-text.mjs",
-    "test:sinhala": "node scripts/review-sinhala.mjs after"
+    "test:sinhala": "node scripts/review-sinhala.mjs after",
+    "test:static": "node scripts/test-static.mjs",
+    "serve:static": "node scripts/serve-static.mjs"
   },
   "overrides": {
     "rolldown": "1.2.1"
@@ -47,7 +49,6 @@
     "@tailwindcss/vite": "^4.2.1",
     "@tanstack/react-query": "^5.101.1",
     "@tanstack/react-router": "1.170.18",
-    "@tanstack/react-start": "1.168.32",
     "@tanstack/router-plugin": "1.168.23",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -84,7 +85,6 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "harfbuzzjs": "^1.6.3",
-    "nitro": "3.0.260603-beta",
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
